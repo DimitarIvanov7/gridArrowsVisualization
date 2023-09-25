@@ -1,6 +1,13 @@
 import data from "./validVariations.json" assert { "type": "json" };
 
-import { mapping } from "./gridLinkingTest";
+export const mapping = {
+  right: "000",
+  left: "001",
+  top: "010",
+  bottom: "011",
+  topLeft: "100",
+  bottomRight: "101",
+};
 
 const gridContainer = document.querySelector(".gridContainer");
 
