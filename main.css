@@ -1,0 +1,205 @@
+.mainContent {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.gridPage {
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+}
+
+.gridItem {
+  border: 2px solid black;
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+}
+
+.arrow {
+  position: absolute;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  top: 50%;
+  right: 1rem;
+  transform: rotate(-45deg);
+}
+
+.left {
+  top: 50%;
+  left: 1rem;
+  transform: rotate(135deg);
+}
+
+.top {
+  top: 1rem;
+  left: 50%;
+  transform: rotate(-135deg);
+}
+
+.bottom {
+  bottom: 1rem;
+  left: 50%;
+  transform: rotate(45deg);
+}
+
+.topLeft {
+  top: 1rem;
+  left: 1rem;
+  transform: rotate(180deg);
+}
+
+.bottomRight {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.buttonContainer {
+  width: 100%;
+}
+
+.buttonFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* chat gpt */
+/* .gridItem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-with-tail {
+  position: relative;
+  width: 0;
+  height: 0;
+  margin: 20px;
+
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.right {
+  border-bottom: 100px solid #007bff;
+}
+
+.right::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 80px solid #ffffff;
+}
+
+.left {
+  border-bottom: 100px solid #007bff;
+  transform: rotate(180deg); 
+}
+
+.left::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 80px solid #ffffff;
+}
+
+.top {
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid #007bff;
+}
+
+.top::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -40px; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 80px solid #ffffff;
+}
+
+.bottom {
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid #007bff;
+}
+
+.bottom::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -40px; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid #ffffff;
+}
+
+.topLeft {
+  border-bottom: 50px solid transparent;
+  border-top: 50px solid #007bff;
+  border-left: 50px solid transparent;
+}
+
+.topLeft::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 80px solid #ffffff;
+}
+
+.bottomRight {
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid #007bff;
+  border-right: 50px solid transparent;
+} */
+
+/* .bottomRight::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: 100%;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid #ffffff;
+} */
